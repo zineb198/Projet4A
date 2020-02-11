@@ -1,0 +1,12 @@
+git pull origin master
+git push origin master
+git commit -m "qqchose"
+git status
+git add fichier
+TF IDF méthode de pondération de mots, varie avec l'occurence dans le document
+et dans le corpus.
+voir quelle version de TF à utiliser? dictionnaire + sujets prédéfinis?
+on a "preprocess" les docs d'arxiv, et on a compté leur occurence
+choses à ajouter dans l'étape de nettoyage comme les chiffres, les abbréviations
+et les fautes  d'orthographe
+matrice frequence sujets, tf idf, expression regulieres, lire livre
