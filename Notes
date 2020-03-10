@@ -9,4 +9,15 @@ voir quelle version de TF à utiliser? dictionnaire + sujets prédéfinis?
 on a "preprocess" les docs d'arxiv, et on a compté leur occurence
 choses à ajouter dans l'étape de nettoyage comme les chiffres, les abbréviations
 et les fautes  d'orthographe
-matrice frequence sujets, tf idf, expression regulieres, lire livre
+matrice frequence sujets, tf idf, expression regulier
+lire livre http://www.nltk.org/book/
+03/03/2020
+arxiv_lda_sklearn_15-topics_clusters_documents
+Comment est ce que count_vectorizer a accès aux données?
+Est-ce qu'on doit continuer à utiliser pandas series ou des listes suffisent?
+lire k means et le coder à la main, coder nous memes + tableau mots/doc (tfidf)
+trouver des manieres pour réduire le nbr de mots (gros tf idf, présent dans au 
+moins 10 docs, pensr a dautres motes)) normaliser. faire marcher k means sur
+ cette matrice. utiliser scipy sparse.https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction s'en INSPIRER aussi,
+prendre un dictionnaire générique au lieu de celui du corpus
+
